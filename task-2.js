@@ -1,0 +1,11 @@
+var bangla = 75.25;
+var english = 65;
+var math = 80;
+var biology = 35.45;
+var islam = 99.50;
+var allSubject = bangla +english+math+biology+islam;
+console.log(allSubject);
+var getAvarageMark = allSubject / 5;
+console.log(getAvarageMark);
+var toFixt = getAvarageMark.toFixed(2);
+console.log( parseFloat(toFixt));
